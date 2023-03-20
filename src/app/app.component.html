@@ -1,0 +1,10 @@
+<!--c--><h1>{{title}}</h1><!--/c-->
+<h1>Tour of Heroes</h1>
+<nav>
+  <a [routerLinkActive]="'active'" [routerLink]="'/Dashboard'">Dashboard</a>
+  <a [routerLinkActive]="'active'" [routerLink]="'/Heroes'">Heroes</a>
+</nav>
+
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+
