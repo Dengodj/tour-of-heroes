@@ -8,8 +8,9 @@ import {HttpClientModule} from "@angular/common/http";
 import {DashboardComponent} from "./dashboard/dashboard.component";
 import {HeroDetailComponent} from "./hero-detail/hero-detail.component";
 import {MessagesComponent} from "./messages/messages.component";
-import {HeroSearchComponent} from "./hero-search/hero-search.component";
 import {HeroesComponent} from "./heroes/heroes.component";
+import {HeroSearchComponent} from "./hero-search/hero-search.component";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,14 +18,15 @@ import {HeroesComponent} from "./heroes/heroes.component";
     DashboardComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
