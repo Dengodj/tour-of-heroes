@@ -1,1 +1,10 @@
-<p>dashboard works!</p>
+<h2>Top Heroes</h2>
+
+<div class="heroes-menu">
+  <a [routerLinkActive]="'active'" [routerLink]="'/Тор'">Тор</a>
+  <a [routerLinkActive]="'active'" [routerLink]="'/Магма'">Магма</a>
+  <a [routerLinkActive]="'active'" [routerLink]="'/Сигма'">Сигма</a>
+  <a [routerLinkActive]="'active'" [routerLink]="'/Мордор'">Мордор</a>
+</div>
+
+<app-hero-search></app-hero-search>
